@@ -115,7 +115,7 @@ function getPatterns() {
 			drawPattern(patterns[0], 0, true);
 		}
 	}
-	xhr.open('GET', 'https://raw.githubusercontent.com/psyclone20/Android-Pattern-Generator/master/output/sequential.txt', true);
+	xhr.open('GET', 'https://github.com/Munendramuni/Android-Pattern-Generator/blob/master/output/sequential.txt', true);
 	xhr.send(null);
 }
 
